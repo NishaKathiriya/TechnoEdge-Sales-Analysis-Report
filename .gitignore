@@ -1,0 +1,14 @@
+# Ignore Power BI temporary files
+*.pbix/ModelCache/*
+*.pbix/DataModelSchema/*
+*.pbit/PBIData/*
+
+# Ignore Power BI log files
+*.pbixlog
+
+# Ignore generated files
+*.pbit
+*.pbix/deploy
+
+# Ignore user-specific Power BI settings
+*.pbix/user/*
